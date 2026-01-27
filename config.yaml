@@ -1,0 +1,5 @@
+region: 'us-east-1'
+id-pool: 'us-east-1:f71731a6-e43b-4f03-8e5a-4bcc7cd013b0'
+endpoint:  'https://csoldb2ku4.execute-api.us-east-1.amazonaws.com/dev/getSimulcast'
+host: 'csoldb2ku4.execute-api.us-east-1.amazonaws.com'
+verbose: True
