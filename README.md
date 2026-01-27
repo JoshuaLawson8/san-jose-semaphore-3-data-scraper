@@ -66,4 +66,23 @@ Shows the mapping of IPA (International Phonetic Alphabet) and singing voice, pl
 
 ### App.tsx
 
-what it sounds like. Does the API handling 
+what it sounds like. Does the API handling
+
+## Other thoughts
+
+There *may* be some extra info leaked by test values increasing. we get random null values-perhaps these should be ignored? I have noticed gaps of 4, 5 and 6 between "nulls"
+ testValuesIncreasing":[16,null,0,1,2,3,4,null]
+
+ In addition, in prior puzzles, there was a "prolog", noted by different sounds/tones.
+
+> It is easy to identify the prolog when watching and/or listening to the Semaphore. During
+the transmission of paragraph content (which is most of the time), each of the
+Semaphore’s discs spins either clockwise or counterclockwise, and there is no predictable
+pattern to the direction of spin. During the prolog, all the discs spin only clockwise.
+Also, during paragraph transmission, a variety of pitches are used for instrumental
+sounds, tones and a signing voice (again, in an unpredictable pattern) to generate an
+unfolding melody. During the prolog, there is no variation in any of the sounds’ pitches,
+and the melody becomes a kind of monotone chant (more details about the sound are at
+the end of this paper)
+
+ https://www.adobe.com/aboutadobe/philanthropy/sjsemaphore/pdf/solution.pdf
